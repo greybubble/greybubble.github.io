@@ -7,6 +7,8 @@ var screenH = window.innerHeight - 20,
 
 var renderer = PIXI.autoDetectRenderer(screenW, screenH);
 
+PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.LINEAR;
+
 var images = ["Phase_IV_Motion_Comic/Flat_Pages/Flat_PNG/Page_2_Flat.png",
               "Phase_IV_Motion_Comic/Flat_Pages/Flat_PNG/Page_3_Flat.png",
               "Phase_IV_Motion_Comic/Flat_Pages/Flat_PNG/Page_4_Flat.png"];
@@ -22,7 +24,6 @@ var stage = new PIXI.Container();
 var pages = [];
 
 PIXI.loader.add(images).load(setup);
-
 
 
 function setup() {
