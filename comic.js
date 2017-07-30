@@ -7,7 +7,7 @@ var screenH = window.innerHeight - 20,
 
 var renderer = PIXI.autoDetectRenderer(screenW, screenH);
 
-PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.LINEAR;
+PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
 
 var images = ["Phase_IV_Motion_Comic/Flat_Pages/Flat_PNG/Page_2_Flat.png",
               "Phase_IV_Motion_Comic/Flat_Pages/Flat_PNG/Page_3_Flat.png",
