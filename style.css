@@ -15,6 +15,7 @@
                        "content"
                        "footer";
   justify-items: center;
+  grid-row-gap: 15px;
 }
 
 .header {
