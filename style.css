@@ -75,5 +75,5 @@
 .footer {
   grid-area: footer;
   background-color: transparent;
-  font-size: 25px;
+  font-size: 12px;
 }
