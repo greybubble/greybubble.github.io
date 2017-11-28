@@ -53,4 +53,23 @@ $('.last').on('click', () => {
   window.scrollTo(0,0);
 });
 
+$(document).keydown(function(e) {
+    switch(e.which) {
+        case 37: // left
+        imageIndex = (imageIndex > 0) ? (imageIndex - 1) : 0;
+        document.getElementById("viewer").src = images[imageIndex];
+        window.scrollTo(0,0);
+        break;
+
+        case 39: // right
+        imageIndex = (imageIndex < images.length - 1) ? (imageIndex + 1) : images.length - 1;
+        document.getElementById("viewer").src = images[imageIndex];
+        window.scrollTo(0,0);
+        break;
+
+        default: return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+});
+
 $('.opt').css('cursor', 'pointer');
