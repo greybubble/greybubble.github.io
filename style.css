@@ -45,7 +45,7 @@ body {
   font-size: 30px;
   display: inline-grid;
   grid-template-areas: "first previous next last";
-  width: 90vw;
+  width: 80vw;
   justify-content: space-around;
   text-align: center;
 }
@@ -77,7 +77,7 @@ body {
 }
 
 .page {
-  max-width: 90vw;
+  max-width: 75vw;
 
 }
 
