@@ -3,11 +3,19 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background-image: url('comic_pages_72dpi/BPC_BG_Tile.jpg');
+  background-repeat: repeat;
+  color: white;
+  background-color: navy;
+}
+
+body {
+
 }
 
 .layout {
   display: grid;
-  width: 100vw;
+  width: 98vw;
   height: 100vh;
   grid-template-areas: "header"
                        "subtitle"
@@ -16,11 +24,11 @@
                        "footer";
   justify-items: center;
   grid-row-gap: 15px;
+
 }
 
 .header {
   grid-area: header;
-  background-color: transparent;
   font-size: 40px;
   font-weight: bold;
 
