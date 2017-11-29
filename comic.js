@@ -1,15 +1,15 @@
 
 var imageIndex = 0;
 
-var images = ["comic_pages_150dpi/Page_2_Ink.jpg",
-              "comic_pages_150dpi/Page_3_Ink.jpg",
-              "comic_pages_150dpi/Page_4_Ink.jpg",
-              "comic_pages_150dpi/Page_5_Ink.jpg",
-              "comic_pages_150dpi/Page_6_Ink.jpg",
-              "comic_pages_150dpi/Page_7_Ink.jpg",
-              "comic_pages_150dpi/Page_8_Ink.jpg",
-              "comic_pages_150dpi/Page_9_Ink.jpg",
-              "comic_pages_150dpi/Page_10_Ink.jpg"];
+var images = ["comic_pages_96dpi/Page_2_Ink.jpg",
+              "comic_pages_96dpi/Page_3_Ink.jpg",
+              "comic_pages_96dpi/Page_4_Ink.jpg",
+              "comic_pages_96dpi/Page_5_Ink.jpg",
+              "comic_pages_96dpi/Page_6_Ink.jpg",
+              "comic_pages_96dpi/Page_7_Ink.jpg",
+              "comic_pages_96dpi/Page_8_Ink.jpg",
+              "comic_pages_96dpi/Page_9_Ink.jpg",
+              "comic_pages_96dpi/Page_10_Ink.jpg"];
 /*
 window.addEventListener("click", function(){
   console.log("Click!");
