@@ -13,12 +13,9 @@ body {
   background-repeat: repeat;
   background-attachment: fixed;
   color: #191118;
-/*
-#f1efff;
-background-color: #4f3945;
-*/
   background-color: #191118;
   text-shadow: -1px 0 #ff2828, 0 1px #ff2828, 1px 0 #ff2828, 0 -1px #ff2828;
+  font-weight: bold;
 }
 
 .layout {
@@ -38,23 +35,23 @@ background-color: #4f3945;
 
 .header {
   grid-area: header;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
 
 }
 
 .subtitle {
   grid-area: subtitle;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .menu {
   grid-area: menu;
   background-color: transparent;
-  font-size: 20px;
+  font-size: 25px;
   display: inline-grid;
   grid-template-areas: "first previous next last";
-  width: 40vw;
+  width: 60vw;
   justify-content: space-around;
   text-align: center;
 }
@@ -62,10 +59,10 @@ background-color: #4f3945;
 .menu2 {
   grid-area: menu2;
   background-color: transparent;
-  font-size: 20px;
+  font-size: 25px;
   display: inline-grid;
   grid-template-areas: "first previous next last";
-  width: 40vw;
+  width: 60vw;
   justify-content: space-around;
   text-align: center;
 }
@@ -104,5 +101,5 @@ background-color: #4f3945;
 .footer {
   grid-area: footer;
   background-color: transparent;
-  font-size: 12px;
+  font-size: 15px;
 }
