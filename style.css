@@ -7,7 +7,8 @@
 }
 
 body {
-  background-image: url('backgrounds/BPC_BG_Tile_purple.png');
+  background-image: url('backgrounds/BPC_BG_Tile_white.png');
+  background-blend-mode: soft-light;
   background-size: 20%;
   background-repeat: repeat;
   background-attachment: fixed;
