@@ -3,14 +3,21 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-image: url('comic_pages_96dpi/BPC_BG_Tile.jpg');
-  background-repeat: repeat;
-  color: white;
-  background-color: navy;
+
 }
 
 body {
-
+  background-image: url('backgrounds/BPC_BG_Tile_purple.png');
+  background-size: 20%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: #191118;
+/*
+#f1efff;
+background-color: #4f3945;
+*/
+  background-color: #191118;
+  text-shadow: -1px 0 #ff2828, 0 1px #ff2828, 1px 0 #ff2828, 0 -1px #ff2828;
 }
 
 .layout {
@@ -21,9 +28,10 @@ body {
                        "subtitle"
                        "menu"
                        "content"
+                       "menu2"
                        "footer";
   justify-items: center;
-  grid-row-gap: 15px;
+  grid-row-gap: 5px;
 
 }
 
@@ -36,16 +44,27 @@ body {
 
 .subtitle {
   grid-area: subtitle;
-  font-size: 25;
+  font-size: 15px;
 }
 
 .menu {
   grid-area: menu;
   background-color: transparent;
-  font-size: 30px;
+  font-size: 20px;
   display: inline-grid;
   grid-template-areas: "first previous next last";
-  width: 80vw;
+  width: 40vw;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.menu2 {
+  grid-area: menu2;
+  background-color: transparent;
+  font-size: 20px;
+  display: inline-grid;
+  grid-template-areas: "first previous next last";
+  width: 40vw;
   justify-content: space-around;
   text-align: center;
 }
